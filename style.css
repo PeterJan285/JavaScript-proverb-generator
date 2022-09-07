@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.btn {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    font-size: 1.3rem;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+#toasts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.toast {
+    background-color: white;
+    color: royalblue;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    width: 300px;
+}
